@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    height: 25vh;
+    background: rgb(234, 169, 169);
+    
+}
+.header h1{
+    margin: 0;
+    padding-left: 20px;
+    padding-top: -20px;
+}
+.header p{
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+}
+.nav{
+    display: flex;
+    padding: 1% 0.7%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 25px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:rgb(229, 224, 218)  ;
+    display:block;
+    margin: auto;
+    transition: 0.75s;
+}
+.nav-links ul li:hover::after{
+    width: 75%;
+}
+@media(max-width: 700px){
+    .header p{
+       padding: 10px;
+       font-size: small; 
+    }
+    
+}
+.about{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 200px;
+    background-color: rgb(255, 255, 255);
+}
+.about h1{
+    text-align: left;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.details p{
+    padding-top: 120px;
+    margin: 5%;
+    font-size: larger;
+    
+}
+.details img{
+    padding: 25px;
+    max-width: 25%;
+    border-radius:20%;
+    padding-left: 30px;
+    margin:1%;
+}
+.Skills{
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+}
+.Skil-col ul{
+    list-style: none;
+    padding: 10px;
+}
+.Skil-col li{
+    font-size: large;
+    margin-right: 40px;
+    padding: 40px;
+}
+.sec5 {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sec5 h1{
+
+    padding: 30px;
+    margin: 0;
+    text-align: left;  
+}
+.resume1 a {
+    display:inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    width: 8%;
+    border: 1px solid rgb(234, 169, 1693);
+    background: rgb(234, 169, 169);
+   
+}
+.resume1 a:hover{
+    width: 8%;
+    background-color: rgb(236, 121, 121);
+}
+/*        PROJECT      */
+.projects{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+}
+.projects h1{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+      
+}
+.projects h3{
+    padding-bottom: 35px;
+    margin-left: 5%;
+}
+.row{
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+}
+.col{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.project1 {
+    flex-basis: 31%;
+    border-radius: 10px;
+    padding-left: 30px;
+    text-align: left;
+      
+}
+.project1 p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: large;
+}
+.project1 img{
+    width: 80%;  
+   
+}
+.projects img{
+    
+    border-color: black;
+    border-radius: 50px;
+    padding: 65px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.visit-link{
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(12, 10, 8);
+    border: 1px solid rgb(234, 169, 169);
+    padding: 10px 10px;
+    font-size: 20px;
+    background:rgb(234, 169, 169);
+    position: relative;
+    cursor: pointer;
+    width: 6%;
+}
+.visit-link:hover{
+    width: 6%;
+    border: 1px solid rgb(234, 133, 133);
+    background: rgb(241, 139, 139);
+    transition: 1s;
+}
+.contact{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0%;
+    
+}
+.contact li{
+    padding-top: 0px;
+    margin: 5%;
+}
+.contact a{
+
+    padding-top: 25px;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(234, 169, 169);
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.footer p{
+    padding-top: 20px;
+}
